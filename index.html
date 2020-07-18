@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/custom-style.css">
+    <style>
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      [class*="col-"] {
+      width: 100%;
+      }
+    }
+    .flex-container > div{
+      display:flex;
+      justify-content:center;
+      font-size:20px;
+      line-height:50px;
+      margin: 20px;
+      background-color: #00ff00;
+
+
+
+
+
+
+      }
+    </style>
+  </head>
+
+  <body>
+  <div>
+    <header class="header" id="header">
+      <center>
+      <img  id="header-img" src="https://images2.alphacoders.com/540/thumb-1920-540010.jpg">
+    <nav id="nav-bar">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#tours">Tours</a>
+        <a class="nav-link" href="#information">Information</a>
+    </nav>
+  </center>
+  </div>
+    </header>
+
+    <center>
+    <h1 id="title" class="title">Experience St. Lucia</h1>
+    <section id="about"></section>
+    <iframe id="video" class="video" width="560" height="315" src="https://www.youtube.com/embed/trmEq3e04a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+
+    <section id="tours">
+    <div class="flex-container">
+      <div><a href="inland tours">Inland Tours</a></div>
+      <div><a href="sea tours">Sea Tours<a/></div>
+      <div><a href="land and sea tours">Land and Sea Tours<a/></div>
+    </div>
+  </section>
+
+
+
+    <section id="information">
+    <center>
+      <h2> Subscribe for more Information</h2><br>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" placeholder="@youremail.com" name="email"></input>
+      <input id="submit" type="submit"</input>
+    </form>
+    </section>
+  </center>
+
+  </body>
+
+
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
